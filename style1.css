@@ -1,0 +1,46 @@
+
+
+.podder {
+background:url(http://2.bp.blogspot.com/-GkgYnhusqrY/UrcPDySyWlI/AAAAAAAABE8/IgIZAbUoZBs/s1600/menubar.png);
+background-repeat: no-repeat;
+padding-bottom:40px;
+-moz-border-radius:4em;
+border-radius:4em 4em 8em 8em;
+padding-right:80px;
+padding-top:-20px;
+width:550px;
+height:44px;
+}
+
+
+body {
+min-width: 1074px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1074px;
+max-width: 1074px;
+_width: 1074px;
+}
+.main-inner .columns {
+padding-left: 0;
+padding-right: 10px;
+}
+.addthiss, #headerps{
+display:block;
+bottom:0;
+}
+
+
+h2.date-header {
+-moz-background-inline-policy:continuous;
+background:none repeat scroll 0 0 transparent;
+color:red;
+font-family:Georgia, &quot;
+font-size:13px;
+font-weight:400;
+text-align:left;
+margin:1em 0 .5em;
+}
+.sidebar, #sidebar-wrapper, .loginmode {
+display:none;
+}
