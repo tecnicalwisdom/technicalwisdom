@@ -5,7 +5,7 @@ text-shadow: -1px 0 rgba(1,1,1,0), 0 1px rgba(1,1,1,0), 1px 0 rgba(1,1,1,0), 0 -
 #headerblank{padding-top:20px;     display:block;}
 /* hide Blogger bar */
  .noPrinth {padding-top:55px;height:177px;}
-#navbar-iframe, .labels, h4, .printarticle, .noPrint,  #readtest, .tabs-outer, .tabs-outer, .addthiss .post-labels, .blog-pager, .quickedit, .post-feeds, .post-share-buttons, .comment-replybox-thread, .comments, #comments { 
+#navbar-iframe, .labels, h4, .printarticle, .noPrint,  #readtest, .tabs-outer, .tabs-outer, .addthiss .post-labels, .blog-pager, .quickedit, .post-feeds, .post-share-buttons, .comment-replybox-thread, .podder, #comments { 
 display: none; }
 /* Reset colors to black text on white background and background images */
 .footer , .post-outer { 
