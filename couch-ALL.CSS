@@ -1,6 +1,551 @@
- #readtest{ 
+.jump-link {font-family:Georgia, "Times New Roman", Times, serif;display:inline;}
+#myhover {width: 20px;  /*width of the image */height: 20px;  /* height of the image */background:url() no-repeat;}
+body#layout #headertw {display: none;}
+#headertw { float: left;height: 1px;margin-left: 740px;margin-top: -32px;position: relative;}
+#headertw img {margin-right: 5px;padding: 0;}
+body#layout #searchbox {display: none;}
+<script type="text/css">
+.jump-link {font-family:Georgia, "Times New Roman", Times, serif;display:inline;}
+.menu-item {z-index:999; height:58px;padding: 4px 0 0 0;float:left;text-align:center;font-family:BentonSansCond Regular, Helvetica, Arial, sans-serif;font-size: 14px;color: #fff;}
+.menu-item a {color: #fff;text-decoration: none;}
+.menu-item a:hover {color: #eeecec;}
+.menu-item bb:hover {font-size: 40px;}
+#menu-item-1 {color: #000; width:166px;  background-image:url(http://2.bp.blogspot.com/-kkidftbBu5E/UmupuLz2pkI/AAAAAAAAAjA/LeBYiqU5S8I/s1600/howto3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-2 {width:124px; background-image:url(http://2.bp.blogspot.com/-2SJJ1B8gYKs/UmupwBAzRYI/AAAAAAAAAjY/NhKgUNbTfwo/s1600/tech+news3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-3 {width:133px; background-image:url(http://1.bp.blogspot.com/-n1aAQ7LgiSk/Umupwu1QpoI/AAAAAAAAAjc/_Rf0-osK4mA/s1600/whatnexr3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-4 {width:93px; background-image:url(http://2.bp.blogspot.com/-3M7oTcFyvkI/UmupwENEKBI/AAAAAAAAAjU/05Di9h8G2KU/s1600/tricks.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-5 {width:88px; background-image:url(http://2.bp.blogspot.com/-idE8xWx4JCs/UtlO2iTOdZI/AAAAAAAABKU/a0rypy5jJBQ/s1600/review30.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-6 {width:153px; background-image:url(http://2.bp.blogspot.com/-s_3JrtCPn7k/Umupt9ELEEI/AAAAAAAAAi8/gA6TxljymK8/s1600/entertain3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-7 {width:92px; padding:7px 0 0 0; text-align:left; background-image:url(); background-repeat:no-repeat; background-position:-144px 10px;}
+#menu-item-8 {width:200px; padding:15px 0 0 0; text-align:right;   background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-9 {width:90px; padding:-47px 0 0 0;  background-image:url(); background-repeat:no-repeat; background-position:-144px 10px;}
+<script type="text/css">
+..menu-item {z-index:999; height:58px;padding: 4px 0 0 0;float:left;text-align:center;font-family:BentonSansCond Regular, Helvetica, Arial, sans-serif;font-size: 14px;color: #fff;}
+.menu-item a {color: #fff;text-decoration: none;}
+.menu-item a:hover {color: #eeecec;}
+.menu-item bb:hover {font-size: 40px;}
+#menu-item-1 {color: #000; width:166px;  background-image:url(http://2.bp.blogspot.com/-kkidftbBu5E/UmupuLz2pkI/AAAAAAAAAjA/LeBYiqU5S8I/s1600/howto3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-2 {width:124px; background-image:url(http://2.bp.blogspot.com/-2SJJ1B8gYKs/UmupwBAzRYI/AAAAAAAAAjY/NhKgUNbTfwo/s1600/tech+news3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-3 {width:133px; background-image:url(http://1.bp.blogspot.com/-n1aAQ7LgiSk/Umupwu1QpoI/AAAAAAAAAjc/_Rf0-osK4mA/s1600/whatnexr3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-4 {width:93px; background-image:url(http://2.bp.blogspot.com/-3M7oTcFyvkI/UmupwENEKBI/AAAAAAAAAjU/05Di9h8G2KU/s1600/tricks.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-5 {width:88px; background-image:url(http://2.bp.blogspot.com/-idE8xWx4JCs/UtlO2iTOdZI/AAAAAAAABKU/a0rypy5jJBQ/s1600/review30.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-6 {width:153px; background-image:url(http://2.bp.blogspot.com/-s_3JrtCPn7k/Umupt9ELEEI/AAAAAAAAAi8/gA6TxljymK8/s1600/entertain3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-7 {width:92px; padding:7px 0 0 0; text-align:left; background-image:url(); background-repeat:no-repeat; background-position:-144px 10px;}
+#menu-item-8 {width:200px; padding:15px 0 0 0; text-align:right;   background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-9 {width:90px; padding:-47px 0 0 0;  background-image:url(); background-repeat:no-repeat; background-position:-144px 10px;}
+..menu-item {z-index:999; height:58px;padding: 4px 0 0 0;float:left;text-align:center;font-family:BentonSansCond Regular, Helvetica, Arial, sans-serif;font-size: 14px;color: #fff;}
+.menu-item a {color: #fff;text-decoration: none;}
+.menu-item a:hover {color: #eeecec;}
+.menu-item bb:hover {font-size: 40px;}
+#menu-item-1 {color: #000; width:166px;  background-image:url(http://2.bp.blogspot.com/-kkidftbBu5E/UmupuLz2pkI/AAAAAAAAAjA/LeBYiqU5S8I/s1600/howto3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-2 {width:124px; background-image:url(http://2.bp.blogspot.com/-2SJJ1B8gYKs/UmupwBAzRYI/AAAAAAAAAjY/NhKgUNbTfwo/s1600/tech+news3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-3 {width:133px; background-image:url(http://1.bp.blogspot.com/-n1aAQ7LgiSk/Umupwu1QpoI/AAAAAAAAAjc/_Rf0-osK4mA/s1600/whatnexr3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-4 {width:93px; background-image:url(http://2.bp.blogspot.com/-3M7oTcFyvkI/UmupwENEKBI/AAAAAAAAAjU/05Di9h8G2KU/s1600/tricks.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-5 {width:88px; background-image:url(http://2.bp.blogspot.com/-idE8xWx4JCs/UtlO2iTOdZI/AAAAAAAABKU/a0rypy5jJBQ/s1600/review30.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-6 {width:153px; background-image:url(http://2.bp.blogspot.com/-s_3JrtCPn7k/Umupt9ELEEI/AAAAAAAAAi8/gA6TxljymK8/s1600/entertain3.png); background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-7 {width:92px; padding:7px 0 0 0; text-align:left; background-image:url(); background-repeat:no-repeat; background-position:-144px 10px;}
+#menu-item-8 {width:200px; padding:15px 0 0 0; text-align:right;   background-repeat:no-repeat; background-position:-144px 0;}
+#menu-item-9 {width:90px; padding:-47px 0 0 0;  background-image:url(); background-repeat:no-repeat; background-position:-144px 10px;}
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-4898556-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript">
+function showBubble(shID) {
+document.getElementById('comments_number-'+shID).style.backgroundPosition = "0px -40px";
+document.getElementById('comments_text-'+shID).firstChild.style.color = "#93918a";
+}
+function hideBubble(shID) {
+document.getElementById('comments_number-'+shID).style.backgroundPosition = "0px 0px";
+document.getElementById('comments_text-'+shID).firstChild.style.color = "#474640";
+}
+function showCircle(shID) {
+document.getElementById(shID).style.backgroundPosition = "0px -78px";
+}
+function hideCircle(shID) {
+document.getElementById(shID).style.backgroundPosition = "0px 0px";
+}
+</script>
+</script>
+<script type="text/css">
+.post {background-color: #FFFFFF;width: 575px;float: left;font-size: 14px;font-family: Georgia, "Times New Roman", Times, serif;color: #474640;line-height: 24px;margin:24px 0 0 0;}
+entry h2{font-size: 14px;font-family: Georgia, "Times New Roman", Times, serif;color: #474640;line-height: 34px;border-bottom: 1px solid #fff}
+.post-body {font-size: 14px;font-family: Georgia, "Times New Roman", Times, serif;color:  #474640;line-height: 26px;}
+.entry-content a {color: #00bef5;text-decoration: none;}
+.entry-content a:hover {color: #085478;}
+.entry-content img {border:none;}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</script>
+Code:
+#myhover:hover {
+background:url() no-repeat;}
+.header {
+background: url('');
+background-repeat: no-repeat;background-position: bottom;width: 1178px;padding-top:-10px}
+ccontent-inner {-moz-box-shadow: inset 0 10px 5px 5px #7092BE;
+-webkit-box-shadow: inset 0 0 5px 5px#7092BE;
+box-shadow: inset 0 -10px 5px 5px #7092BE;box-shadow: inner 0 10px 5px #7092BE;-moz-border-radius:4em;
+border-radius:0em 0em 1em 1em;background-color: #fff; border-left:10px solid #7092BE;border-bottom:5px solid #7092BE ;border-right:10px solid #7092BE;height:4px;padding-bottom:-2px;padding-left:13.3%;padding-right:13.3%;padding-top:53px;width: 73.21%;}
+.content-inner {-moz-box-shadow: inset 0 0 50px 15px #7092BE;
+-webkit-box-shadow: inset 0 0 5px 5px#7092BE;box-shadow: inset 0 0 5px 5px #7092BE; z-index:500;
+border:2px solid #000 padding:-15px;-moz-border-radius:8em;
+border-radius:2em 2em 2em 2em;background-color: #fff; padding-bottom:20px;padding-left:4%;padding-right:4%;padding-top:-30px;width: 1098px;}
+.footer-outer {background: url('');background-repeat: no-repeat;background-position: 0px bottom;border: 0px;padding-bottom:28px;width: 1178px;}
+</script>
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1178px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1178px;
+max-width: 1178px;
+_width: 1178px;
+}
+.main-inner .columns {
+padding-left: 0;
+padding-right: 342px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0;
+right: 342px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0") -
+parseInt("342px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 342px;
+}
+.main-inner .column-left-outer {
+width: 0;
+right: 100%;
+margin-left: -0;
+}
+.main-inner .column-right-outer {
+width: 342px;
+margin-right: -342px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type='text/javascript'>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-44846035-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = (document.location.protocol == 'https:' ?
+                  'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<script type='text/javascript'>
+function removeDiv() {
+    var linkDiv = document.getElementById("linkwithin_log");
+    var parentDiv = document.getElementsByClassName("linkwithin_inner");
+    parentDiv.removeChild(linkDiv);
+}
+</script>
+<style type='text/css'>
+nav select, nav ul { display: none; }
+nav select { display: inline-block; text-align: center; } 
+.navMenu {/*searchbar*/height: 36px;line-height: 36px;width: 150px; /* CSS 3 */}
+.navMenu a {color: #333;border-right: 1px solid rgba(255,255,255,.5);display: inline-block;float: right;
+font-size: 12px;padding: 0 15px;text-align: center;text-shadow: 0 1px 1px #FFF;text-transform: uppercase;text-decoration: none;
+width: 11px; /* CSS3 */
+-webkit-transition: 0.3s;
+-moz-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s;}
+.navMenu a:hover { background-color: rgba(0, 0, 0,.05) }
+.navMenu input:hover { opacity: 1 }
+.navMenu input:focus {opacity: 1;}
+.navMenu input:focus ~ a {  }
+.navMenu input {/*homeicon2.pngusedhereasimahespite*/
+background: url(http://1.bp.blogspot.com/-9p4LsVwsl6w/VGX90g_z9JI/AAAAAAAABro/6sG-mHho0wY/s1600/homeicon1.png) no-repeat 5px -185px #FFF;width: 11px;height: 11px;
+border: 1px solid #AAA;color: #666;float: right;font-size: 11px;margin: 7px 1px 0 0;opacity: 0.6;
+outline: none;padding: 3px 5px 3px 20px;/* CSS3 */border-radius: 5px;
+-webkit-transition: 0.3s;
+-moz-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s;/*searchbar code ends*/}
+#tophov{ /*up down shtcut*/
+width:38px;height:37px;text-decoration:none;display:block;opacity:0.3;
+background-image:url(http://1.bp.blogspot.com/-9p4LsVwsl6w/VGX90g_z9JI/AAAAAAAABro/6sG-mHho0wY/s1600/homeicon1.png);
+background-position: 0 -139px;z-index: 999;}
+#tophov p:hover{ opacity:0.1;width:38px;height:37px;}
+#bothov{ /*up down shtcut*/
+width:38px;height:37px;text-decoration:none;display:block;opacity:0.3;
+background-image:url(http://1.bp.blogspot.com/-9p4LsVwsl6w/VGX90g_z9JI/AAAAAAAABro/6sG-mHho0wY/s1600/homeicon1.png);
+background-position: 0 -99px;z-index: 999;}
+#bothov :hover{ opacity:0.1;width:38px;height:37px;}
+#shr{/*share icon*/width:20px;height:20px;text-decoration:none;display:block;
+background-image:url(http://1.bp.blogspot.com/-9p4LsVwsl6w/VGX90g_z9JI/AAAAAAAABro/6sG-mHho0wY/s1600/homeicon1.png);
+background-position:-66px 0;}
+#logo-link{/*homeicon*/width:55px;height:45px;text-decoration:none;display:block;
+background-image:url(http://1.bp.blogspot.com/-9p4LsVwsl6w/VGX90g_z9JI/AAAAAAAABro/6sG-mHho0wY/s1600/homeicon1.png);
+background-position:0px 0px;}
+#logo-link:hover, #logo-link:active	{ width:55px;height:45px;background-position:0px -45px; }
+.post-footer {margin: 20px -2px 0;padding: 5px 10px;color: #666666;border-bottom: 14px double #9F9F9F;line-height: 1.6;
+font-size: 90%;-moz-border-radius:8em;border-radius:20em    20em 1em 1em ;}
+</style>
+<!--post summary on homepage from here-->
+<script>/*FOR POST ONLY zoom in and out text*/
+var section ;
+var factor = 0.8;
+
+function getFontSize(el)
+{
+    var fs = $(el).css('font-size');    
+    if(!el.originalFontSize)el.originalFontSize =fs; //set dynamic property for later reset  
+    return  parseFloat(fs);  
+}
+
+function setFontSize(fact){
+    if(section==null)
+       section = $('#pocontents').find('*')       
+       .filter(
+         function(){return  $(this).clone()
+            .children()
+            .remove()
+            .end()
+            .text().trim().length > 0;
+            }); //filter -> exclude all elements without text
+      
+    section.each(function(){  
+      var newsize = fact ? getFontSize(this) * fact : this.originalFontSize;
+      if(newsize) $(this).css('font-size', newsize );      
+    }); 
+}
+
+function resetFont(){
+    setFontSize();
+}
+function increaseFont() {
+    setFontSize(1 / factor);
+}
+function decreaseFont(){
+    setFontSize(factor);
+}
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+function removeHtmlTag(strx,chop){
+if(strx.indexOf("<")!=-1)
+{
+var s = strx.split("<");
+for(var i=0;i<s.length;i++){
+if(s[i].indexOf(">")!=-1){
+s[i] = s[i].substring(s[i].indexOf(">")+1,s[i].length);
+}
+}
+strx = s.join("");
+}
+chop = (chop < strx.length-1) ? chop : strx.length-2;
+while(strx.charAt(chop-1)!=' ' && strx.indexOf(' ',chop)!=-1) chop++;
+strx = strx.substring(0,chop-1);
+return strx+'...';
+}
+
+function createSummaryAndThumb(pID){
+var div = document.getElementById(pID);
+var imgtag = "";
+var img = div.getElementsByTagName("img");
+var summ = posts_no_thumb_sum;
+if(img.length>=1) {
+imgtag = '<span class="posts-thumb" style="float:left;"><img src="'+img[0].src+'" width="'+img_thumb_width+'px" height="'+img_thumb_height+'px"/></span>';
+summ = posts_thumb_sum;
+}
+
+  var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
+div.innerHTML = summary;
+}
+
+function createSummaryAndThumb1(pID){
+var div = document.getElementById(pID);
+var imgtag = "";
+var img = div.getElementsByTagName("img");
+var summ = first_no_thumb_sum;
+if(img.length>=1) {
+imgtag = '<span class="first-post-thumb" style="float:left;"><img src="'+img[0].src+'" width="'+img_thumb_width1+'px" height="'+img_thumb_height1+'px"/></span>';
+summ = first_thumb_sum;
+}
+
+var summary1 = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
+div.innerHTML = summary1;
+}
+
+//]]>
+</script>
+<style type='text/css'>
+/* flexible video frame    */
+.video-container {position: relative;padding-bottom: 56.25%;padding-top: 30px; height: 0; overflow: hidden;}
+.video-container iframe,
+.video-container object,
+.video-container embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}</style>
+<style type='text/css'>
+.labeltext {float:left;font-family:Georgia, "width:575px;font-size:21px;margin:-58px 0 0;}
+.cat_title {height: 20px;float: left;margin: 2px 0 16px 0;width:575px;font-size:21px;}
+.navMenu input:focus {width: 160px;}
+.navMenu input {width: 80px;}
+@media print {
+.date-header span {background-color: transparent;color: #000000;padding: 0.4em;letter-spacing: 0em;margin: inherit;
+font-style:italic;padding-top:25px;
+text-shadow: -1px 0 rgba(1,1,1,0), 0 1px rgba(1,1,1,0), 1px 0 rgba(1,1,1,0), 0 -1px rgba(1,1,1,0);}
+.small_img{display:none;}
+#headerblank{padding-top:20px;     display:block;}
+/* hide Blogger bar */
+ .noPrinth {padding-top:55px;height:177px;}
+#navbar-iframe, .labels, h4, .printarticle, .noPrint,  #headerps, .tabs-outer, .tabs-outer, #readtest, .addthiss .post-labels, .blog-pager, .quickedit, .post-feeds, .post-share-buttons, .comment-replybox-thread, .comments, #comments { 
+display: none; }
+/* Reset colors to black text on white background and background images */
+.footer , .post-outer { 
+background-image: none; 
+color: black; text-shadow: none; }
+/* Hide Pages, sidebars, embedded videos  iframes */
+.ftrstylbkd,.sidebar, #skyline { 
+display: none; width: 0%; }
+iframe, object { 
 display: none; }
 
- .sidebars{ 
-display: none; }
+/* Reset post width to fill the entire page */
+.main-inner, .columns {
+padding-left: 0px !important;
+padding-right: 0px !important;
+width: 100%; }
+.content-outer { 
+margin: 0px; width: 100%; }
+.content-inner {
+padding: 0px; width: 100%; }
+.post-outer { 
+ border: none; width: 100%; }
+/* Specific for my blog */
+#footer-2-1, #footer-2-2, #sharenav, .buttonlist, .videocontainer, #nodisplay320, #display320topsearchbar, #nodisplay { 
+ display: none; }/*media print ends*/}
+
+#login-box {width:300px;height:30px;background-color:rgba(141,205,131,0.4);
+-moz-border-radius:4em;border-radius:4em 4em 4em 4em;display:none;z-index:700;}</style>
+<!--menu bar background bar-->
+<!--readingmode-->
+<style type='text/css'>
+#PopularPosts1 .widget-content { 
+height: 400px; 
+overflow: auto; 
+}
+
+#copyrightgap{padding-top:10px;}
+#copyrightgap{padding-top:5px;}
+.ftrstyl a, .ftrstyl b{color:#C8C8C8;}
+.ftrstyl a:hover{color:#fff;text-decoration:none;}
+.ftrstylbkd{border-top: 5px outset rgba(108,202,225,1);background-color:#7F7F7F;padding-bottom:10px;padding-top:10px;}
+
+.main-inner .columns {padding-left: 0;padding-right: 10px;}
+
+
+.flip-vertical {
+-moz-transform:scaleY(-1);
+-webkit-transform:scaleY(-1);
+-o-transform:scaleY(-1);
+transform:scaleY(-1);
+    filter:flipv;}
+
+.myClass {font-size:20px;color:red;}
+div#hide-container {width:500px;height:300px;background-color:#ccc;}
+.author {float:left;text-align:center;font-family:BentonSansCond Regular, Helvetica, Arial, Droid Serif;font-size:20px;}
+#sidebar-wrapper {float: right;margin-right: 30px;margin-top: -73px;overflow: hidden;position: relative;width: 350px;
+word-wrap: break-word;}
+#headerps{display:none;}
+h2,.emails h2 {-moz-background-inline-policy: continuous;background: url("")no-repeat scroll 0 0 transparent;
+border-bottom:1px solid #22B14C;color: #D7D7AD;font-size: 29px;text-align: center;text-transform: none;height: 26px;padding-top: 16px;width: 338px;font-family: Times New Roman, "Times New Roman", Times, serif;
+text-shadow: -1px 0 #22B14C, 0 1px #22B14C, 1px 0 #22B14C, 0 -1px #22B14C;letter-spacing: 0;margin-bottom: 0;}
+.emails h2 {background-position: 0 -99px;}
+h2 {background-position: 0 0;}
+h2.date-header {/*correct date class*/
+-moz-background-inline-policy: continuous;
+background: none repeat scroll 0 0 transparent;
+margin:-4.0em 0 .5em;color:#f00;
+font-family: Georgia, "Times New Roman", Times, serif;font-size:13px;font-weight:normal;text-align: left;
+padding-bottom:10px;border-bottom:1px solid #fff; }
+.post h2{ background: url("http://2.bp.blogspot.com/-8YGrO_cvKNY/UETLr24sE2I/AAAAAAAAvOM/yaWjwlYyuqY/s400/blank.gif"); -webkit-box-shadow: inset 0 0 10px #ffffff; -moz-box-shadow: inset 0 0 10px #ffffff, box-shadow: inset 0 0 10px #ffffff; padding-left:-30px; border-bottom:5px solid #000; }
+.sidebar {-moz-background-inline-policy: continuous;
+background: url("http://4.bp.blogspot.com/-X4TSbjeeCS0/UoRtCBZ4R9I/AAAAAAAAAuI/nu6DSEJX4fU/s1600/dddddddddddddd.png") repeat-y scroll 0 0 ;color: #666666;line-height: 1.5em;margin-left: 29px;margin-top: -15px;padding-bottom:-30px;width: 350px;}
+#blog-pager-newer-linkk {
+margin:18px 0 50px 0;
+width:105px;
+height:14px;
+float: right;
+}
+#blog-pager-older-linkk {
+margin:18px 0 50px 0;
+width:105px;
+height:14px;
+float: left;
+}
+#blog-pager-home-linkkk  {
+margin:18px 0 0 165px;
+float:left;
+}
+
+#blog-pager-older-linkk a,
+#blog-pager-newer-linkk a {
+font-family: BentonSansCond Regular, Helvetica, Arial, sans-serif;
+font-size: 12px;
+}
+.C {list-style: none outside none;margin: 0;padding: 0;}
+.sidebar li {border-bottom: 1px dotted #CCCCCC;line-height: 1.5em;margin: 0;padding: 2px 0 0.25em 8px;}
+.sidebar .widget, .main .widget {margin: 0 0 1.5em;}
+.date-header span {background-color: transparent;color: #000000;padding: 0.4em;letter-spacing: 0em;margin: inherit;
+font-style:italic;text-shadow: -1px 0 rgba(1,1,1,0), 0 1px rgba(1,1,1,0), 1px 0 rgba(1,1,1,0), 0 -1px rgba(1,1,1,0);}
+.podder {/*bluebar of menu*/
+background:url(http://2.bp.blogspot.com/-GkgYnhusqrY/UrcPDySyWlI/AAAAAAAABE8/IgIZAbUoZBs/s1600/menubar.png);
+background-repeat: no-repeat;
+padding-bottom:26px;padding-right:40px;padding-top:-20px;width:1142px;height:44px;z-index:999}
+.menu4 li {/*indiidual menu item*/float:left;list-style:none;margin:0;padding:0;}
+.menu4 li a:link {border-right:1px solid 595959px;color:#fff;font-size:14px;display:block;
+text-decoration:none;margin:0;padding:19px 15px 9px;}
+.menu4 li:hover {
+background:url(http://2.bp.blogspot.com/-5V_FTGsJsQ0/UmzN9AanLOI/AAAAAAAAAkU/cgSWH5koM1U/s1600/blbck2.png);
+background-repeat:no-repeat;height:70px;text-decoration:none;margin:0;}
+.emailsubs aaa,.mailsubs a {color:#7e7f7f;text-decoration:none;}
+.emailsubs aaa:hover,.mailsubs a:hover {color:#000;}
+.home-linkk{font-family:BentonSansCond Regular, Helvetica, Arial, sans-serif;font-size:14px;padding-top:25px;padding-left:-400px;}
+</style>
+<style type='text/css'>
+.simpleTabs {width:100%;margin-bottom:15px;}
+.simpleTabs div{background:none repeat scroll 0 0 #fff;clear:left;padding:5px 10px 8px; }
+.simpleTabs div ul {list-style:none outside none;margin:0;}
+.simpleTabs div li a {color:#CDCDCD;display:block;font-weight:normal;padding:3px 0 3px 0; text-decoration:none;}
+.simpleTabs div li {border-bottom:1px solid #fff;border-top:1px solid #202020;font-size:12px;}</style>
+<script type='text/javascript'>
+
+$(document).ready(function() {
+
+$.fn.simpleTabs = function(){ 
+	//Default Action
+	$(this).find(".tab_content").hide(); //Hide all content
+	$(this).find("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	$(this).find(".tab_content:first").show(); //Show first tab content
+	
+	//On Click Event
+	$("ul.tabs li").click(function() {
+		$(this).parent().parent().find("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(this).parent().parent().find(".tab_content").hide(); //Hide all tab content
+		var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		$(activeTab).show(); //Fade in the active content
+		return false;
+	});
+};//end function
+
+$("div[class^='simpleTabs']").simpleTabs(); //Run function on any div with class name of "Simple Tabs"
+
+
+});
+</script>
+<script>
+	 // DOM ready
+	 $(function() {
+	   
+      // Create the dropdown base
+      $("<select></select>").appendTo("nav");
+      
+      // Create default option "Go to..."
+      $("<option></option>", {
+         "selected": "selected",
+         "value"   : "",
+         "text"    : "Go to..."
+      }).appendTo("nav select");
+      
+      // Populate dropdown with menu items
+      $("nav a").each(function() {
+       var el = $(this);
+       $("<option></option>", {
+           "value"   : el.attr("href"),
+           "text"    : el.text()
+       }).appendTo("nav select");
+      });
+      
+	   // To make dropdown actually work
+	   // To make more unobtrusive: http://css-tricks.com/4064-unobtrusive-page-changer/
+      $("nav select").change(function() {
+        window.location = $(this).find("option:selected").val();
+      });
+	 
+	 });
+	</script>
+<script src='http://static.ak.fbcdn.net/connect.php/js/FB.Share' type='text/javascript'></script>
+<script type="text/javascript">var a="indexOf",b="&m=1",e="(^|&)m=",f="?",g="?m=1";function h(){var c=window.location.href,d=c.split(f);switch(d.length){case 1:return c+g;case 2:return 0<=d[1].search(e)?null:c+b;default:return null}}var k=navigator.userAgent;if(-1!=k[a]("Mobile")&&-1!=k[a]("WebKit")&&-1==k[a]("iPad")||-1!=k[a]("Opera Mini")||-1!=k[a]("IEMobile")){var l=h();l&&window.location.replace(l)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='co section' id='co'></div>
+</div>
+<body class='loading variant-simplysimple'>
+<div class='sbutton'>
+</div>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\758367386162093611674\46blogName\75Technical+Wisdom\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://technicalwisdom.blogspot.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl\75http://technicalwisdom.blogspot.com/\46targetPageID\758693423295557096023\46blogPostOrPageUrl\75http://technicalwisdom.blogspot.com/p/blog-page_13.html\46blogFollowUrl\75https://plus.google.com/112260318202926980129\46vt\75-408904618057716818',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
 
