@@ -1,3 +1,23 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5em;font-size:1em;width:100%}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{background-color:#fdfdfa;color:#080000;font:18px/1.5em "Palatino Linotype",Palatino,"Book Antigua",Georgia,serif}h1,h2,h3,h4,h5,h6{font-weight:bold;margin-bottom:1.5em}
+h1{font-size:1.875em !important;line-height:1.3em !important;font-weight:normal;border-bottom:1px solid #cdcdcc;clear:both;margin:1em 0 .5em !important;padding:.2em 0!important;}
+
+h2,h3{font-size:1.3125em;line-height:1.15;margin-top:2.285714em;margin-bottom:.75em}h3{font-weight:normal}h4{font-size:1.125em;margin-top:2.67em}h5,h6{font-size:1em}a{text-decoration:none;color:#9c0001}a:hover,a:active{text-decoration:underline;color:#9c0001}p,blockquote,div{margin-bottom:1.5em}blockquote{font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em}ul,ol{margin:0 0 1.5em 1.5em}ol li{list-style-type:decimal;list-style-position:outside}ul li{list-style-type:disc;list-style-position:outside}thead th,tfoot th{text-transform:uppercase;padding:.25em .25em .25em .4em}th{text-align:left}td{vertical-align:top;padding:.25em .25em .25em .4em}em{font-style:italic}strong{font-weight:bold}pre,code,tt{font-size:.875em;line-height:1.714285em;font:"Courier New",Courier,monospace}h1+h2{margin-top:.2em;margin-bottom:2.15em;font-size:.875em}p+ul,h2+ul,p+ol,h2+ol{margin-top:-1em}h3+ul,h4+ul,h5+ul,h6+ul,h3+ol,h4+ol,h5+ol,h6+ol{margin-top:.5em}hr{border-top:0;border-right:0;border-bottom:1px solid;border-left:none}pre code,code pre{font-size:1.15em;font:"Courier New",Courier,monospace}.youtube-player{width:100%}#sidebar,#header,#footer,.post-nav span,#disqus_thread,.post-date-wrap,.list-post .post-icon,.g2,.yarpp,.topics,.post-meta{display:none!important}.sidebar1 .list-post .post,.sidebar1 .list-post .type-page,.sidebar1 .list-post .type-attachment{width:100%;max-width:100%;margin:0;padding:0}#pagewrap{width:36em;margin:2em auto}.sidebar1 #content{width:100%;max-width:100%;margin:0}.labnolSocial,.toolsMenu,.bottom_ads{display:none}img{max-width:100%;background:none repeat scroll 0 0 #FFF;border:#d4d4d4 solid 1px;padding:.25em}p.post-excerpt:before{content:"Summary: "}p.post-excerpt:after{content:" By Amit Agarwal."}p.post-excerpt{font-style:italic;font-size:90%}#couchToolbar a{text-decoration:none;margin:0 .2em;text-align:center;color:#fff}#couchToolbar{background:#000;font-size:.9em;font-style:italic;display:block;position:fixed;top:0;right:0;margin:0 4em 0 0;padding:.4em}.toolset,.breadcrumb{display:none}
+
+.single .list-post .post-excerpt {
+left: 0 !important;
+position: relative !important;
+text-align: left !important;
+top: 0 !important;
+width: auto !important;
+font: italic .95em/1.8em Georgia, Times, serif !important;
+padding: .5em 0 !important;
+}
+
+.bio, .yarpp-related, .flipboard, .garectangle, .garectangle2, .googleadsrectangle { display: none; }
+
+
+
+
 .date-header span {background-color: transparent;color: #000000;padding: 0.4em;letter-spacing: 0em;margin: inherit;
 font-style:italic;padding-top:25px;
 text-shadow: -1px 0 rgba(1,1,1,0), 0 1px rgba(1,1,1,0), 1px 0 rgba(1,1,1,0), 0 -1px rgba(1,1,1,0);}
